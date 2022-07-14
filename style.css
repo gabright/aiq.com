@@ -167,6 +167,7 @@ strong {
 /* OUR STORY */
 .ourstory {
   margin: auto;
+  color: white;
 }
 /* NESWSLETTER START */
 
@@ -333,6 +334,20 @@ footer {
 
 .whatwedo2 {
   color: #3da8e0 !important;
+}
+
+.whatwedo2 p {
+  color: white;
+}
+
+.services-items p {
+  color: white;
+  font-size: 18px;
+}
+
+.services-items h3 {
+  color: #3da8e0;
+  font-size: 24px;
 }
 
 .aboutimage img {
