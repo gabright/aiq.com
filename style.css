@@ -1,0 +1,391 @@
+body {
+  font-family: "exo";
+  background-color: black;
+}
+
+/* <!--NAV-- >  */
+
+.navbar {
+  background: none;
+  background-color: black !important;
+  background-image: linear-gradient(to right, black, #163d52);
+  color: white;
+}
+
+.navbar li:hover {
+  background-color: #3da8e0;
+}
+
+.navbar-brand p {
+  font-family: "exo";
+  font-weight: bold;
+  font-size: 10px;
+}
+li > a {
+  color: #fff !important;
+}
+
+.fa {
+  color: white;
+}
+/* <!--NAV END-- >  */
+
+.landing {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(images/landing1.png);
+  background-repeat: none;
+  height: 80vh;
+  background-size: cover;
+}
+
+.landing h1 {
+  color: white;
+}
+
+.landing-item {
+  color: white;
+  text-shadow: 2px 2px #163d52;
+  font-size: 18px;
+}
+
+.landing-items {
+  margin-top: 80px;
+}
+
+/* ABOUTHOME START */
+.row h4 {
+  color: #3da8e0;
+}
+
+strong {
+  color: #3da8e0;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  background-color: #3da8e0;
+}
+
+.firstabout p {
+  color: white;
+  inline-size: 2;
+  font-size: 18px;
+}
+
+.firstabout img {
+  box-shadow: 3px 3px 3px #3da8e0;
+  height: 500px;
+}
+/* ABOUTHOME END */
+
+/* <!--MISSION VISION CORE VALUES--> */
+.row-infor {
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .mission {
+    width: 100%;
+  }
+}
+
+/* <!--MISSION VISION CORE VALUES--> */
+
+/* Create three equal columns that floats next to each other */
+.column-item {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* <!--SERVICES START-- >  */
+.service-content {
+  background: #3da8e0;
+  opacity: ;
+}
+
+.grid-content {
+  background-color: #3da8e0;
+}
+
+.grid-content h2 {
+  color: white;
+}
+
+.btn-readMore {
+  background-color: white;
+  color: #3da8e0;
+  box-shadow: 0px 5px #163d52;
+}
+
+.grid-service {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 20px;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border: 3px;
+  border-radius: 5px;
+}
+
+/* .grid-item {
+  margin: auto;
+  display: block;
+} */
+.grid-container h4 {
+  color: #3da8e0;
+}
+/* <!--SERVICES END--> */
+
+/* OUR STORY */
+.ourstory {
+  margin: auto;
+}
+/* NESWSLETTER START */
+
+.newsletter-subscribe {
+  color: #eaf7fd !important;
+  background-color: #3da8e0;
+  padding: 55px 74px;
+  margin: auto;
+}
+
+.newsletter-subscribe p {
+  line-height: 1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+}
+
+.newsletter-subscribe form {
+  justify-content: center;
+}
+
+.newsletter-subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px;
+  color: black;
+}
+
+.newsletter-subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity: 1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform: translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color: #163d52 !important;
+  color: #fff;
+  outline: none !important;
+}
+
+.newsletter {
+  color: white !important;
+}
+
+.contact-items {
+  margin: auto;
+}
+/* NEWSLETTER END */
+
+/* UPDATES NEWS START*/
+.updates h3 {
+  color: #3da8e0 !important;
+}
+.card .btn {
+  background-color: #3da8e0;
+}
+
+.bg-updates {
+  background-image: url(images/updates\ news.png);
+}
+/* UPDATES NEWS END*/
+
+.subscribe {
+  background-image: linear-gradient(#3da8e0, #163d52);
+}
+/* <!--FOOTER START-- >  */
+footer {
+  background-color: #3da8e0;
+  height: auto;
+}
+
+.footer-container {
+  display: grid;
+  column-gap: px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.footer-item {
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.footer-item a {
+  color: white;
+}
+
+/* OUR COMPANY PAGE START*/
+.mainourcompany {
+  background-image: url(images/our\ company\ aiq.png);
+  height: 177px;
+  width: 100%;
+  color: white;
+}
+
+.abouttext > p {
+  font-size: 18px;
+  color: white;
+  padding: ;
+}
+
+.contact-items > p {
+  font-size: 14px;
+}
+/* OUR COMPANY PAGE END */
+
+/* WHAT WE DO SECTION */
+.mainwhatwedo {
+  background-image: url(images/what\ we\ do.png);
+  height: 177px;
+  width: 100%;
+  color: white;
+}
+
+.whatwedo h3 {
+  color: #3da8e0;
+}
+
+.whatwedo > div {
+  background-color: #eaf7fd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.whatwedo2 {
+  color: #3da8e0 !important;
+}
+
+.aboutimage img {
+  height: 500px;
+  width: 400px;
+  box-shadow: 3px 3px 3px #3da8e0;
+}
+
+.about-item {
+  margin: auto;
+}
+/* CONTACT US SECTION */
+.contactusmain {
+  background-image: url(images/our\ contact.png);
+  height: 177px;
+  width: 100%;
+  color: white;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.grid3 .contactus {
+  font-size: 18px;
+}
+
+.aiqmap {
+  border: #3da8e0;
+}
+
+/* OUR HISTORY SECTION */
+
+.mainhistory {
+  background-color: #3da8e0;
+  height: 100px;
+  background-image: linear-gradient(to right, #163d52, #3da8e0);
+  color: white;
+}
+
+.ourhistory {
+  margin: auto;
+}
+.history p {
+  font-size: 18px;
+}
+
+.historytext h4 {
+  color: #3da8e0;
+}
+
+.historytext p {
+  color: white;
+}
