@@ -41,8 +41,7 @@ li > a {
   color: #fff !important;
 }
 
-#main {
-  /* width: 100%;
+/* width: 100%;
   height: 100vh;
   box-sizing: border-box;
   background-color: #edf1fd;
@@ -51,20 +50,19 @@ li > a {
   background-size: 300px;
   background-position: right center;
   justify-content: ; */
-}
 
 .landing {
   background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.5) 50%,
-      rgba(0, 0, 0, 0.5) 50%
+      rgba(0, 0, 0, 0.5) 70%,
+      rgba(0, 0, 0, 0.5) 70%
     ),
-    url(images/landing1.png);
+    url(images2/nasa-yZygONrUBe8-unsplash.jpg);
   background-repeat: none;
   height: 100vh;
   width: 100%;
   background-size: cover;
-  position: relative;
+
   z-index: 4;
   margin-top: 80px;
 }
