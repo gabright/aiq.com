@@ -54,8 +54,8 @@ li > a {
 .landing {
   background: linear-gradient(
       to top,
-      rgba(0, 0, 0, 0.5) 1%,
-      rgba(0, 0, 0, 0.5) 1%
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.3) 50%
     ),
     url(images2/nasa-yZygONrUBe8-unsplash.jpg);
   background-repeat: none;
