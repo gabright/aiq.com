@@ -61,8 +61,10 @@ li > a {
     ),
     url(images/landing1.png);
   background-repeat: none;
-  height: 80vh;
+  height: 100vh;
+  width: 100%;
   background-size: cover;
+  position: relative;
   z-index: 4;
   margin-top: 80px;
 }
