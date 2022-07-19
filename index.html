@@ -21,7 +21,8 @@
   <body>
     
 
-<!--HOMEPAGE-->
+<!--main-->
+<section id="main">
 <nav class="navbar navbar-expand-sm navbar-light bg-light nav-fluid" >
   <a class="navbar-brand" href="index.html"
     ><img src="images/aiq logo.png" width="80" alt="aiq logo" />
@@ -40,7 +41,6 @@
           >Home <span class="sr-only">(current)</span></a
         >
       </li>
-
       
       <li class="nav-item dropdown p-1">
         <a
@@ -108,10 +108,20 @@
             aria-expanded="false"
             >Contact Us</a
           ></li>
-
-          
-<input type="search" name="" placeholder="search site" id=""> <button class=" btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search color-black" aria-hidden="true"></i></button>
+          <!--language-->
+        <a href="#" class="lang">en</a>
 </nav>
+
+
+
+
+
+
+
+
+
+
+</section>
 
 <!-- LANDING -->
 <div class="jumbotron landing"> 
@@ -206,34 +216,52 @@
       </div>
       </div>
 
-
-    
-      
-      
-    
-    
-  
-
- 
 <!--service-content-->
 <section class="grid-content service">
   <h2 class="text-center p-3"> <img src="icons/services icon.svg" alt="service icon" style="width: 50px;" class=""> SERVICES</h2>
 <div class="grid-container grid-service">
-  <div class="column"><h4>GEOAI</h4>
-    <p>Geospatial Artificial Intelligence (focus on Remote Sensing) AIQ uses remote sensing to 
-    gather information about human activity on earth acquired via the analysis of earth imagery and geospatial data that identifies, analyzes and usually shows physical features and spatially referenced activities.</p></div>
+  <div class="column service-item"><h4>GEOAI</h4>
+    <p>Geospatial Artificial Intelligence (focus on Remote Sensing) AIQ uses remote sensing to gather information about human activity on earth acquired via the analysis of earth imagery and geospatial data that identifies, analyzes and usually shows physical features and spatially referenced activities.</p></div>
 
-  <div class="column"><h4>GIDAD</h4>
+  <div class="column service-item"><h4>GIDAD</h4>
     <p>
       Geospatial Intelligence and Data Analysis Database (focus on Geospatial Analysis and Workspaces for teams)
        </P></div>
 
-  <div class=" column"><h4>HRSI</h4>
+  <div class=" column service-item"><h4>HRSI</h4>
     <p>
 High resolution satellite imagery that can be used to improve decision making in all aspects of living ranging from Defence, environment and climate, agriculture, infrastructure engineering and government.
 </div>
 
-  <div class="column"><h4>DATA-CAMP</h4><p>
+  <div class="column service-item"><h4>DATA-CAMP</h4><p>
+    Data Collection, Analysis and Mapping Platform Data Dashboards and Collection Interface</p></div>
+  
+  </div>
+  <div class="d-flex justify-content-center  p-4 ">
+  <a href="whatwedo.html"><button class="btn btn-readMore">Read more..</button></a></div>
+</div>
+</section>
+<!--service-content-end-->
+<br>
+
+<!--service-content-->
+<section class="grid-content service">
+  <h2 class="text-center p-3"> <img src="icons/services icon.svg" alt="service icon" style="width: 50px;" class=""> SERVICES</h2>
+<div class="grid-container grid-service">
+  <div class="column service-item"><h4>GEOAI</h4>
+    <p>Geospatial Artificial Intelligence (focus on Remote Sensing) AIQ uses remote sensing to gather information about human activity on earth acquired via the analysis of earth imagery and geospatial data that identifies, analyzes and usually shows physical features and spatially referenced activities.</p></div>
+
+  <div class="column service-item"><h4>GIDAD</h4>
+    <p>
+      Geospatial Intelligence and Data Analysis Database (focus on Geospatial Analysis and Workspaces for teams)
+       </P></div>
+
+  <div class=" column service-item"><h4>HRSI</h4>
+    <p>
+High resolution satellite imagery that can be used to improve decision making in all aspects of living ranging from Defence, environment and climate, agriculture, infrastructure engineering and government.
+</div>
+
+  <div class="column service-item"><h4>DATA-CAMP</h4><p>
     Data Collection, Analysis and Mapping Platform Data Dashboards and Collection Interface</p></div>
   
   </div>
@@ -243,13 +271,18 @@ High resolution satellite imagery that can be used to improve decision making in
 </section>
 <!--service-content-end-->
 
+
+
+
+
+
 <div class="row m-5">
 
   <!--Grid column-->
   
   <div class="col-md-6 ourstory">
     <h2>OUR STORY</h2>
-    <iframe width="600" height="400" src="https://www.youtube.com/embed/FpB1y-dZKqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+    <iframe  src="https://www.youtube.com/embed/FpB1y-dZKqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
     <em><b><p>AIQ was founded on a vison that is transforming the world using 
       geospatial artificial intelligence to
       provide solutions to government, business security agencies and more.</p></b></em>
@@ -379,7 +412,7 @@ container bg-dark text-white btn-cta p-4 my-5">
 <div id="footer-items"> 
   <div class="footer-container">
     <div class="footer-item d-block"><a href="index.html">
-    <img  src="images/AIQ LOGO.svg" alt="" style="width:100px; margin: auto; "></a>
+    <img  src="images/AIQ LOGO.svg" alt="" style="width:50px; margin: auto; "></a>
     <h6>ARITIFICIAL INTELLIGENCE QUOTIENT</h6></div>
     <div class="footer-item"><h5>MENU</h5>
       <p><a href="index.html">Home</a></p>
