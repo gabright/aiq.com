@@ -785,21 +785,21 @@ ul.social-footer2 li a {
   margin: auto;
 }
 /* CONTACT US SECTION */
-.contactusmain {
+#contactus {
   background-image: url(images/our\ contact.png);
   height: 177px;
   width: 100%;
   color: white;
+  margin-top: 80px;
+  display: block;
 }
 
-.grid3 {
-  display: grid;
+.contact-item {
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
-}
-
-.grid3 .contactus {
-  font-size: 18px;
+  color: white;
+  justify-content: center;
 }
 
 .aiqmap {
