@@ -131,10 +131,10 @@ li > a {
   font-weight: 400;
 }
 
-.about-text h1,
-h2 {
+.about-text h1 {
   margin: 0px;
   padding: 0px;
+  color: white !important;
 }
 
 .about-text p {
@@ -727,11 +727,6 @@ ul.social-footer2 li a {
   width: 100%;
   color: white;
   margin-top: 80px;
-}
-
-.abouttext > p {
-  font-size: 18px;
-  color: white;
 }
 
 .contact-items > p {
