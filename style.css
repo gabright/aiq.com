@@ -310,7 +310,64 @@ h2 {
 }
 /* NEW SERVICES SECTION END */
 
-/* <!--SERVICES START-- >  */
+@media (max-width: 1190px) {
+  #main {
+    background-size: 1150px;
+  }
+  .name {
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%, -50%);
+  }
+  .about-model img {
+    height: 400px;
+  }
+  #services {
+    height: auto;
+  }
+  #services2 {
+    height: auto;
+  }
+  .s-b-container {
+    flex-wrap: wrap;
+  }
+  .s-box {
+    flex-grow: 1;
+  }
+  .s-b-text {
+    text-align: center;
+  }
+  #contact-form form {
+    width: 95% !important;
+  }
+}
+
+@media (max-width: 970px) {
+  #main {
+    background-size: 930px !important;
+  }
+  .name {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .about-img {
+    display: none;
+  }
+  #about {
+    justify-content: center;
+    padding: 0px;
+  }
+  .about-text {
+    width: 90%;
+  }
+  .about-text h1 {
+    font-size: 4rem;
+  }
+  .p-b-container {
+    width: 100%;
+  }
+}
 
 /* OUR STORY */
 #ourstory {
@@ -342,6 +399,7 @@ h2 {
 
 .ourstory-text button:hover {
   background-color: white;
+  color: #163d52;
   transition: all ease 0.3s;
 }
 
