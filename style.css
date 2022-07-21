@@ -753,14 +753,13 @@ ul.social-footer2 li a {
   margin-top: 80px;
 }
 
-.whatwedo h4 {
-  font-size: 3rem;
+.mainwhatwedo h1{
+  padding: 50px;
+  letter-spacing: 2px;
 }
 
-.whatwedoww {
-  background-color: #eaf7fd;
-  padding: 10px;
-  margin: 10px;
+.whatwedo h4 {
+  font-size: 2rem;
 }
 
 .whatwedo {
