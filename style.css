@@ -26,9 +26,12 @@ body {
   box-shadow: 2px 2px 12px #3da8e0;
   z-index: 1;
 }
-
+nav button{
+  background-color: #3da8e0"
+}
 .navbar li:hover {
   background-color: #3da8e0;
+  color: #3da8e0;
 }
 
 .navbar-brand p {
@@ -750,47 +753,26 @@ ul.social-footer2 li a {
   margin-top: 80px;
 }
 
-.services-items {
-  display: grid;
-  grid-template-columns: auto auto;
+.whatwedo h4 {
+  font-size: 3rem;
 }
 
-.whatwedo h3 {
-  color: #3da8e0;
-}
-
-.whatwedo > div {
+.whatwedoww {
   background-color: #eaf7fd;
   padding: 10px;
   margin: 10px;
 }
 
-.whatwedo2 {
-  color: #3da8e0 !important;
-}
-
-.whatwedo2 p {
-  color: white;
-}
-
-.services-items p {
-  color: white;
-  font-size: 18px;
-}
-
-.services-items h3 {
+.whatwedo {
   color: #3da8e0;
-  font-size: 24px;
-}
-
-.aboutimage img {
-  height: 500px;
-  width: 400px;
-  box-shadow: 3px 3px 3px #3da8e0;
-}
-
-.about-item {
   margin: auto;
+  letter-spacing: 2px;
+  width: auto;
+
+}
+
+.whatwedo p {
+  color: white;
 }
 
 /* NEW WHAT WE DO SECTION */
@@ -798,6 +780,7 @@ ul.social-footer2 li a {
   display: grid;
   grid-template-columns: auto auto auto;
   column-width: auto;
+  width: 100%;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -805,6 +788,7 @@ ul.social-footer2 li a {
   #whatwedo5 {
     width: 100%;
     display: block;
+    justify-content: center;
   }
   .wwd-box {
     box-shadow: 3px 3px 3px #3da8e0;
