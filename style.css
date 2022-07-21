@@ -730,56 +730,31 @@ ul.social-footer2 li a {
 
 /* <!--FOOTER END-- >  */
 
-/* OUR COMPANY PAGE START*/
-.mainourcompany {
-  background-image: url(images/our\ company\ aiq.png);
-  height: 177px;
-  width: 100%;
-  color: white;
-  margin-top: 80px;
-}
 
-.contact-items > p {
-  font-size: 14px;
-}
-/* OUR COMPANY PAGE END */
 
 /* WHAT WE DO SECTION */
-.mainwhatwedo {
-  background-image: url(images/what\ we\ do.png);
-  height: 177px;
+
+.mainservice{
+  color: white;
+  padding: 20%;
+  height: 50%;
+  margin-top: 5%;
   width: 100%;
+  background: url(images2/saikrishna-saketh-yellapragada-tgUGIvgntmI-unsplash.jpg);
+}
+
+#mainservice h1{
   color: white;
-  margin-top: 80px;
-}
-
-.mainwhatwedo h1{
-  padding: 50px;
+  font-size: 48px;
   letter-spacing: 2px;
-}
-
-.whatwedo h4 {
-  font-size: 2rem;
-}
-
-.whatwedo {
-  color: #3da8e0;
-  margin: auto;
-  letter-spacing: 2px;
-  width: auto;
-
-}
-
-.whatwedo p {
-  color: white;
 }
 
 /* NEW WHAT WE DO SECTION */
 #whatwedo5 {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-width: auto;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -793,7 +768,7 @@ ul.social-footer2 li a {
     box-shadow: 3px 3px 3px #3da8e0;
   }
   .mainwhatwedo {
-    margin-top: 80px;
+    margin-top: ;
   }
 }
 
@@ -828,7 +803,6 @@ ul.social-footer2 li a {
 
 /* CONTACT US SECTION */
 #contactus {
-  background-image: url(images/our\ contact.png);
   height: 177px;
   width: 100%;
   color: white;
@@ -838,15 +812,16 @@ ul.social-footer2 li a {
 
 .contact-item {
   display: flex;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
   color: white;
   justify-content: center;
 }
 
-.aiqmap {
-  border: #3da8e0;
+.aiqmap h4{
+ color: white;
 }
+
 
 /* OUR HISTORY SECTION */
 
