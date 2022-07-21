@@ -741,6 +741,12 @@ ul.social-footer2 li a {
   height: 177px;
   width: 100%;
   color: white;
+  margin-top: 80px;
+}
+
+.services-items {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .whatwedo h3 {
@@ -779,6 +785,47 @@ ul.social-footer2 li a {
 
 .about-item {
   margin: auto;
+}
+
+/* NEW WHAT WE DO SECTION */
+#whatwedo5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-width: auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  #whatwedo5 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.wwd-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  justify-content: center;
+  margin: auto;
+}
+
+.wwd-box h2 {
+  color: white;
+  padding: 10px;
+}
+.wwd-box:hover {
+  box-shadow: 0 8px 16px 0 #3da8e0;
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+.wwd-text {
+  padding: 2px 16px;
+  color: white;
+  letter-spacing: 1px;
 }
 /* CONTACT US SECTION */
 #contactus {
