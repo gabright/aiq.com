@@ -125,6 +125,7 @@ li > a {
 }
 .about-text {
   width: 50%;
+  letter-spacing: 1px;
 }
 
 .about-text h3 {
@@ -379,6 +380,16 @@ li > a {
   nav {
     position: fixed;
   }
+  #call{
+    width: 80%;
+  }  
+  #call .call-text button{
+    font-size: small;
+  }  
+  #ourstory .ourstory-text iframe{
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* OUR STORY */
@@ -418,10 +429,16 @@ li > a {
 /* call to action */
 #call {
   color: #eaf7fd !important;
-  background-color: #3da8e0;
-  padding: 5px;
+  background-image:  linear-gradient(to top, #163d52, #3da8e0);
+  padding: 2px;
   display: flex;
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 20vh;
 }
+
+
 
 #call .call-text {
   align-items: center;
@@ -433,12 +450,14 @@ li > a {
   border-radius: 20px;
   border: none;
   outline: none;
-  background-color: white;
+  background-color: #3da8e0;
+  box-shadow: 0px 5px 12px black;
 }
 
 #call button:hover {
-  background-color: #163d52;
-  color: white;
+  background-color: white;
+  color: #163d52;
+  font-weight: bold;
 }
 
 /* NESWSLETTER START */
@@ -839,10 +858,30 @@ ul.social-footer2 li a {
   color: white;
 }
 
+.c-about-text {
+  letter-spacing: 1px;
+}
+/* width: 350px;
+  height: 500px;
+  margin: 20px; */
 #mainourcompany .c-about img{
   width: 500px;
 }
 
+/* responsiveness */
+@media screen and (max-width: 768px) {
+  #mainourcompany {
+    width: 100%;
+  }
+
+  #mainourcompany .c-about img{
+    display: none;
+  }
+  .c-about{
+    align-items: center;
+    justify-content: center;
+  }
+}
 /* OUR HISTORY SECTION */
 
 .mainhistory {
