@@ -855,6 +855,22 @@ ul.social-footer2 li a {
  letter-spacing: 2px;
 }
 
+.aiqmap iframe{
+  width: 600px;
+  height: 500px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .aiqmap iframe{
+    width: 300px;
+  height: 300px;
+  }
+
+
+}
+
+
 /* MAIN ABOUT */
 #mainourcompany{
   margin-top: 80px;
