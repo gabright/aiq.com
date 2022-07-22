@@ -77,16 +77,23 @@ li > a {
   display: flex;
 }
 
-.btn-see {
+.landing-items .btn-see {
   width: 180px;
   height: 40px;
   border-radius: 15px;
+  background-color: #3da8e0;
   border: none;
   outline: none;
-  background-color: #3da8e0;
   color: white;
   padding: 10px;
+  text-decoration: none;
 }
+.landing-items .btn-see:hover{
+  background-color: white;
+  color: #163d52;
+  font-weight: bold;
+}
+
 
 .about-text button:hover {
   background-color: white;
@@ -103,7 +110,7 @@ li > a {
 }
 
 .social a:hover i {
-  color: #163d52;
+  color: white;
   transition: all ease 0.5s;
 }
 /* social start */
@@ -842,8 +849,10 @@ ul.social-footer2 li a {
   justify-content: center;
 }
 
-.aiqmap h4{
+.aiqmap h5{
  color: white;
+ font-size: 2rem;
+ letter-spacing: 2px;
 }
 
 /* MAIN ABOUT */
