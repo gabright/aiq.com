@@ -614,11 +614,10 @@ footer ul {
 
 /* Footer Top */
 .footer-top {
-  background: #163d52;
+  background:;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 3px solid #222;
-}
+ }
 
 /* Footer transparent */
 footer.transparent .footer-top,
@@ -673,12 +672,19 @@ footer.light .footer-copyright {
 }
 .widget li a:hover {
   color: black;
+  font-weight: bold;
 }
 .widget-title {
   margin-bottom: 20px;
 }
+.widget .no-box a {
+  fill: white;
+}
+.widget .no-box a:hover {
+  color: white !important;
+}
 .widget-title span {
-  background: #163d52 none repeat scroll 0 0;
+  background: #163d52;
   display: block;
   height: 1px;
   margin-top: 25px;
