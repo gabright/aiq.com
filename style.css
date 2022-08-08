@@ -131,7 +131,7 @@ li > a {
   z-index: auto;
 }
 .about-text {
-  width: 50%;
+  width: 100%;
   letter-spacing: 1px;
 }
 
@@ -668,10 +668,10 @@ footer.light .footer-copyright {
   margin-bottom: 18px;
 }
 .widget li a {
-  color: #163d52;
+  color: white;
 }
 .widget li a:hover {
-  color: black;
+  color: #163d52;
   font-weight: bold;
 }
 .widget-title {
@@ -729,21 +729,24 @@ ul.social-footer2 {
   padding: 0;
   width: auto;
 }
+
 ul.social-footer2 li {
   display: inline-block;
   padding: 0;
 }
-ul.social-footer2 li a:hover {
-}
+
 ul.social-footer2 li a {
   display: block;
   height: 30px;
   width: 30px;
   text-align: center;
+  
 }
+
 .btn {
   background-color: #ffffff;
   color: #163d52;
+  font-weight: bold;
 }
 .btn:hover,
 .btn:focus,
